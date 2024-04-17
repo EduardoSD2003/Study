@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(
+    125deg,
+    rgba(57, 62, 70, 1) 42%,
+    rgba(0, 173, 181, 1) 100%
+  );
+  overflow-y: hidden;
+}
+
+.botaoRemover {
+  transition-duration: 0.5s;
+  transition: ease-in-out;
+  background-color: transparent;
+}
+
+.botaoRemover:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: red;
+}
+
+.botaoEditar {
+  transition-duration: 0.5s;
+  transition: ease-in-out;
+  background-color: transparent;
+}
+
+.botaoEditar:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: green;
+}
+
+.quillEditor .ql-container {
+  background-color: rgb(228, 224, 224);
+}
+
+.quill-editor {
+  height: 100%;
+}
+
+.quillEditor {
+  box-sizing: border-box;
+  height: 93%;
+}
+
+.ql-toolbar.ql-snow {
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  padding: 8px;
+  background-color: #eeeeee;
+}
+
